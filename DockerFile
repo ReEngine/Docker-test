@@ -1,0 +1,5 @@
+FROM nginx:latest
+
+RUN apt-get install -y git
+RUN cd /home
+RUN git clone 

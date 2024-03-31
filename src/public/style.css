@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+
+.image {
+    z-index: 1; 
+}
+
+.blur {
+    -webkit-filter: blur(10vh);
+  
+}
+
+.blur, .image {
+    grid-column: 1/span 8;
+    grid-row: 1; 
+    margin: auto;  
+    max-height: 100vh;
+}
